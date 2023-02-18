@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+/*  */
+
+.main-hero {
+    
+    width: 86%;
+    
+
+}
+
+section {
+    background-color: #2124B1;
+    width: 100%;
+
+}
+
+/* nav section */
+section nav {
+    color: #fff;
+    display: flex;
+    height: 16vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    margin-left: 7%;
+    width: 100%;
+
+
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+ 
+nav h1 {
+    font-size: 4rem;
+
+}
+
+.logo-master {
+    font-size: 2.5rem;
+}
+
+/* nav button */
+
+#nav-button {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #2124B1;
+    /* background-color:#638BF7; */
+}
+
+#nav-button input {
+    height: 25px;
+    padding-left: 5px;
+    outline: none;
+    font-size: 15px;
+    border: transparent;
+    color: #2124B1;
+    font-family: 'Heebo', sans-serif;
+}
+
+#nav-button {
+    color: #2124B1;
+    padding-left: 5px;
+
+}
+
+/* Nav section End  */
+
+
+/* -- main SEO section --  */
+.seo-section{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 7%;
+}
+
+.seo-left-box {
+    width: 41%;
+}
+
+.seo-left-box h1 {
+    font-size: 4rem;
+    line-height: 1;
+    color: #fff;
+    font-weight: 800;
+  }
+.seo-left-box p {
+    color: #fff;
+    font: 500;
+    font-size: 1.5rem;
+    padding-top: 5%;
+}
+
+/* Right box */
+.seo-right-box{
+    width: 36%;
+} 
+.seo-right-box img{
+    width: 100%;
+}
+
+/* seo-section-bottom-img */
+.seo-section-bottom-img img{
+    width: 100%;
+}
+
+/* Button */
+.seo-button button {
+    background-color: #fff;
+    padding: 24px 40px;
+    border-radius: 35px;
+    border: transparent;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .seo-button {
+    padding-top: 5%;
+  }
