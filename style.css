@@ -509,3 +509,36 @@ h6 i {
 }
 
 /* 6 card Box End */
+
+/* team */
+
+.box5-pro {
+    background-color: #2124B1;
+    padding: 50px 15%;
+    gap: 25px;
+    margin: 50px auto;
+    background-image: url(./imgs/bg-newsletter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.name1{
+    
+        flex-direction: column;
+        width: 350px;
+        height: 240px;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        padding: 24px;
+        color: #fff;
+      
+}
+.name1 p{
+    font-size: 20px;
+}
+.idbox{
+    margin: 20px 0;
+}
+.idbox img{
+    border-radius: 50%;
+    margin-right: 30px;
+}
