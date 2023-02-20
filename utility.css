@@ -1,0 +1,13 @@
+/* Display flex   */
+
+.flex{
+    display: flex;
+}
+
+.flex-j-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+

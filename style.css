@@ -9,22 +9,76 @@
 
 body {
     font-family: 'Heebo', sans-serif;
+    /* overflow: hidden; */
 }
 
 /*  */
 
 .main-hero {
-    
+
     width: 86%;
-    
+
 
 }
 
-section {
+#main-hero-section {
+    position: relative;
     background-color: #2124B1;
     width: 100%;
+    height: 60rem;
+    /* background: #0b0b0bf8; */
+    /* background: url(./imgs/bg-dot.png) 200px no-repeat ; */
+    z-index: 1;
+
 
 }
+
+/* background img */
+
+#bgimg {
+    position: absolute;
+    z-index: -1;
+}
+
+.bgimg1 {
+    position: absolute;
+    top: 6rem;
+    left: 3rem;
+    scale: 1.3;
+}
+
+.bgimg2 {
+    position: absolute;
+    left: 40rem;
+}
+
+.bgimg3 {
+    position: absolute;
+    left: 35rem;
+    top: 39rem;
+    z-index: -3;
+    width: 26rem;
+}
+
+.bgimg4 {
+    position: absolute;
+    left: 97rem;
+    top: 30rem;
+    z-index: -3;
+    scale: 1.3;
+}
+
+/* bottom img */
+
+.bottom-imgs {
+    position: absolute;
+    top: 35rem;
+    width: 107.7rem;
+    z-index: -2;
+}
+
+/* End background img  */
+
 
 /* nav section */
 section nav {
@@ -55,11 +109,11 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
- 
+
 nav h1 {
-    font-size: 4rem;
+    font-size: 3rem;
 
 }
 
@@ -97,7 +151,7 @@ nav h1 {
 
 
 /* -- main SEO section --  */
-.seo-section{
+.seo-section {
     display: flex;
     justify-content: center;
     gap: 5%;
@@ -109,41 +163,349 @@ nav h1 {
 }
 
 .seo-left-box h1 {
-    font-size: 4rem;
+    font-size: 3.4rem;
     line-height: 1;
     color: #fff;
     font-weight: 800;
-  }
+}
+
 .seo-left-box p {
     color: #fff;
     font: 500;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding-top: 5%;
 }
 
 /* Right box */
-.seo-right-box{
+.seo-right-box {
     width: 36%;
-} 
-.seo-right-box img{
+}
+
+.seo-right-box img {
     width: 100%;
 }
 
 /* seo-section-bottom-img */
-.seo-section-bottom-img img{
+/* .seo-section-bottom-img img {
     width: 100%;
-}
+    position: relative;
+    top: 10px;
+} */
 
 /* Button */
 .seo-button button {
     background-color: #fff;
     padding: 24px 40px;
     border-radius: 35px;
-    border: transparent;
-    font-size: 1.5rem;
+    border: 1px transparent;
+    font-size: 1.3rem;
     font-weight: 600;
-  }
 
-  .seo-button {
-    padding-top: 5%;
-  }
+}
+
+.seo-button {
+    padding-top: 7%;
+
+}
+
+#seo-button2 {
+    background-color: #2124B1;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-left: 5%;
+}
+
+/* About Start */
+
+.about-section {
+
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.about-laft {
+    width: 40%;
+}
+
+.about-laft h2 {
+    font-size: 2.7rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.about-laft p {
+    color: #888888;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    margin-top: 4%;
+}
+
+/*  */
+.about-raw {
+    font-size: 2rem;
+    margin: 3rem 0;
+}
+
+.ar2-right {
+    padding-left: 6rem;
+
+}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+h6 i {
+    color: #2124B1;
+    scale: 1.3x;
+}
+
+/* End of  */
+
+/* Tow about box */
+.about-2-box {
+    display: flex;
+    /* align-items: center; */
+}
+
+.box1 {
+    width: 15px;
+    height: 15px;
+    background-color: #8FA0D8;
+    margin-right: 10px;
+}
+
+.box1-2 {
+    width: 15px;
+    height: 15px;
+    background-color: #8FA0D8;
+    position: relative;
+    z-index: -2;
+    top: 5px;
+    left: 5px;
+}
+
+.box1-3 {
+    background-color: #5770C4;
+    position: relative;
+    top: -10px;
+    left: 5px;
+    width: 10px;
+    height: 10px;
+
+}
+
+.about-2-box a {
+    padding-left: 1rem;
+    font-size: 23px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #2124B1;
+    margin-bottom: 20px;
+}
+
+
+
+/* End Tow about box */
+
+
+/* black line style */
+.black-line {
+    height: 5px;
+    background-color: #000;
+    width: 5rem;
+    margin: 15px 0px;
+}
+
+.blackin-w {
+    height: 5px;
+    background-color: #fff;
+    width: 7px;
+    position: relative;
+    left: 4.3rem;
+
+}
+
+/* End black line style */
+
+/* midea icon */
+.about-li {
+    list-style: none;
+    /* border: 1px solid #2124B1; */
+    /* border-radius: 30px ; */
+    gap: 15px;
+
+    /* height: 40px; */
+}
+
+.about-li li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2124B1;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+.about-li li a i {
+    color: #2124B1;
+    scale: 1.5;
+
+}
+
+
+/* about Button */
+.about-button {
+    background-color: #2124B1;
+    padding: 15px 40px;
+    border-radius: 35px;
+    border: 1px transparent;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+
+/* Mainbox 3 Start */
+
+.mainbox3 {
+    background-color: #2124B1;
+    margin: 5rem 0;
+    /* gap: 30px; */
+    background-image:
+        url(./imgs/bg-newsletter.png);
+    background-repeat: no-repeat;
+    /* background-position:center; */
+    background-size: cover;
+
+}
+
+.box3-laft h3 {
+    color: #fff;
+    font-size: 2.5rem;
+
+}
+
+.box3-laft p {
+    color: #fff;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.box3-input {
+    background-color: #fff;
+    width: 35rem;
+    height: 4rem;
+    border-radius: 2rem;
+}
+
+/* text input button */
+#box3-laft-input {
+    width: 25rem;
+    height: 3rem;
+    font-size: 20px;
+    border: transparent;
+    outline: none;
+}
+
+.box3-input i {
+    scale: 2;
+    margin-left: 55px;
+    color: #2124B1;
+}
+
+/*  */
+.box3-right img {
+    position: relative;
+    top: 3.5rem;
+    left: 5rem;
+}
+
+/*<!-- background img -->  */
+.box3-bgimg {
+    position: absolute;
+    overflow: hidden;
+
+}
+
+.box3-bgimg img {
+
+    scroll-padding: 0px;
+    scale: 1.3;
+}
+
+
+/* <!--========== Box 4 in services Strat ========= --> */
+
+.services-boxstyle {
+    flex-direction: column;
+}
+
+.section-h2 {
+    font-size: 2.7rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+/* 6 card Box */
+
+
+.sexcard.flex-j-a {
+    width: 85%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.sexcard-1 {
+    background-color: #2124B1;
+    width: 330px;
+    height: 350px;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.sexcard-img {
+    width: 100px;
+    height: 100px;
+    background: url(./imgs/icon-shape-white.png );
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sexcard-img i {
+    position: relative;
+    top: 24px;
+    left: 25px;
+    color: #2124B1;
+}
+
+.sexcard-1 h5 {
+    font-weight: 500 !important;
+    font-size: 2rem;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.sexcard-1 p {
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 8px 0;
+}
+
+#rm {
+    color: #2124B1;
+    font-weight: 500;
+    font-size: 1.5rem;
+    background-color: #fff;
+    border-radius: 5rem;
+    padding: 5px 15px;
+    margin-top: 2rem;
+}
+
+/* 6 card Box End */
