@@ -128,17 +128,18 @@ nav h1 {
     padding: 10px 20px;
     border-radius: 20px;
     border: 2px solid #2124B1;
-    /* background-color:#638BF7; */
+    
 }
 
 #nav-button input {
     height: 25px;
-    padding-left: 5px;
+    padding-left: 10px;
     outline: none;
-    font-size: 15px;
+    font-size: 17px;
     border: transparent;
     color: #2124B1;
     font-family: 'Heebo', sans-serif;
+    width: 155px;
 }
 
 #nav-button {
@@ -542,3 +543,84 @@ h6 i {
     border-radius: 50%;
     margin-right: 30px;
 }
+
+
+
+/* fotter  */
+.right-f,
+.laft-f{
+    width: 40%;
+}
+.infor {
+    margin-right: 25px;
+  }
+
+.fotter {
+    
+    padding: 40px;
+    background-color: #2124B1;
+    color: #fff;
+    justify-content: center;
+    padding: 8rem 0px;
+    background-image: url(./imgs/footer.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
+    
+  }
+
+  .fotter h5 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  .fotter p {
+    font-size: 19px;
+    margin-bottom: 15px;
+  }
+  .fotter p i{
+    margin-right: 10px;
+  }
+/* fotter right */
+.project-img img{
+    width: 70px;
+}
+
+.right-f{
+    margin-left: 10px;
+}
+.news{
+    margin-left: 38px;
+    
+}
+.news p {
+    font-size: 17px;
+    margin-bottom: 15px;
+
+  }
+  /* button */
+  /* .box3-input input{
+    width: 60%;
+  } */
+  .fotter-bu{
+    width: 20rem;
+    background-color: #fff;
+    /* width: 35rem; */
+    height: 4rem;
+    border-radius: 2rem;
+    margin-top: 30px;
+  
+  }
+  /* .fotter-bu input{
+    width: 15rem;
+  } */
+  #fu-bu{
+    width: 11rem;
+height: 3rem;
+font-size: 20px;
+border: transparent;
+outline: none;
+
+
+  }
