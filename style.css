@@ -1,3 +1,4 @@
+/*    <!-- google Font --> */
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800&display=swap');
 
 * {
@@ -6,35 +7,28 @@
 
 }
 
-
 body {
     font-family: 'Heebo', sans-serif;
     /* overflow: hidden; */
 }
 
-/*  */
 
-.main-hero {
-
-    width: 86%;
-
-
-}
-
-#main-hero-section {
+/* -- Strat BOX-1 main hero section  -- */
+#box-1-main-hero-section {
     position: relative;
     background-color: #2124B1;
     width: 100%;
     height: 60rem;
-    /* background: #0b0b0bf8; */
-    /* background: url(./imgs/bg-dot.png) 200px no-repeat ; */
     z-index: 1;
-
-
 }
 
-/* background img */
 
+
+/* ====== End of BOX-1 main hero section  ======  */
+
+
+
+/*  ---- Start Box-1 background z-index img ---- */
 #bgimg {
     position: absolute;
     z-index: -1;
@@ -68,8 +62,7 @@ body {
     scale: 1.3;
 }
 
-/* bottom img */
-
+/* bottom img out of box-1 */
 .bottom-imgs {
     position: absolute;
     top: 35rem;
@@ -77,8 +70,14 @@ body {
     z-index: -2;
 }
 
-/* End background img  */
+/*  ====== End Box-1 background z-index img ===== */
 
+
+
+/* --- Start Navbar in box-1 section   --- */
+.nav-box-1 {
+    width: 86%;
+}
 
 /* nav section */
 section nav {
@@ -128,7 +127,7 @@ nav h1 {
     padding: 10px 20px;
     border-radius: 20px;
     border: 2px solid #2124B1;
-    
+
 }
 
 #nav-button input {
@@ -148,10 +147,11 @@ nav h1 {
 
 }
 
-/* Nav section End  */
+/* ====  End of Navbar in box-1 section   ====  */
 
 
-/* -- main SEO section --  */
+/* -- Start Main SEO section --  */
+
 .seo-section {
     display: flex;
     justify-content: center;
@@ -159,6 +159,7 @@ nav h1 {
     padding-top: 7%;
 }
 
+/* Left BOX */
 .seo-left-box {
     width: 41%;
 }
@@ -186,14 +187,7 @@ nav h1 {
     width: 100%;
 }
 
-/* seo-section-bottom-img */
-/* .seo-section-bottom-img img {
-    width: 100%;
-    position: relative;
-    top: 10px;
-} */
-
-/* Button */
+/* Buttons */
 .seo-button button {
     background-color: #fff;
     padding: 24px 40px;
@@ -216,14 +210,17 @@ nav h1 {
     margin-left: 5%;
 }
 
-/* About Start */
+/* -- End Main SEO section -- */
+
+
+/* --- Start of About ---  */
 
 .about-section {
-
     justify-content: center;
     padding: 5rem 0;
 }
 
+/* Left */
 .about-laft {
     width: 40%;
 }
@@ -241,13 +238,14 @@ nav h1 {
     margin-top: 4%;
 }
 
-/*  */
-.about-raw {
+/* -- About Check Box sections 2*2 = 4Box -- */
+.about-check-boxs {
     font-size: 2rem;
     margin: 3rem 0;
 }
 
-.ar2-right {
+/* Left mini box Right */
+.about-mini-boxs-right {
     padding-left: 6rem;
 
 }
@@ -261,14 +259,22 @@ h6 i {
     scale: 1.3x;
 }
 
-/* End of  */
-
-/* Tow about box */
+/* -- Tow  mini box style in about box -- */
 .about-2-box {
     display: flex;
-    /* align-items: center; */
+
 }
 
+.about-2-box a {
+    padding-left: 1rem;
+    font-size: 23px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #2124B1;
+    margin-bottom: 20px;
+}
+
+/* smoll BOXs style in about box */
 .box1 {
     width: 15px;
     height: 15px;
@@ -296,21 +302,10 @@ h6 i {
 
 }
 
-.about-2-box a {
-    padding-left: 1rem;
-    font-size: 23px;
-    font-weight: 600;
-    text-decoration: none;
-    color: #2124B1;
-    margin-bottom: 20px;
-}
+/*  ========= */
 
 
-
-/* End Tow about box */
-
-
-/* black line style */
+/* black line box style in abuot before use */
 .black-line {
     height: 5px;
     background-color: #000;
@@ -328,15 +323,12 @@ h6 i {
 }
 
 /* End black line style */
+/*  */
 
 /* midea icon */
 .about-li {
     list-style: none;
-    /* border: 1px solid #2124B1; */
-    /* border-radius: 30px ; */
     gap: 15px;
-
-    /* height: 40px; */
 }
 
 .about-li li {
@@ -356,7 +348,6 @@ h6 i {
 
 }
 
-
 /* about Button */
 .about-button {
     background-color: #2124B1;
@@ -369,24 +360,25 @@ h6 i {
     color: #fff;
 }
 
-/* Mainbox 3 Start */
+/* End box about */
+
+/* ========================================== */
+
+
+/* Start Mainbox 3  */
 
 .mainbox3 {
     background-color: #2124B1;
     margin: 5rem 0;
-    /* gap: 30px; */
     background-image:
         url(./imgs/bg-newsletter.png);
     background-repeat: no-repeat;
-    /* background-position:center; */
     background-size: cover;
-
 }
 
 .box3-laft h3 {
     color: #fff;
     font-size: 2.5rem;
-
 }
 
 .box3-laft p {
@@ -417,28 +409,28 @@ h6 i {
     color: #2124B1;
 }
 
-/*  */
+/* Rgiht */
 .box3-right img {
     position: relative;
     top: 3.5rem;
     left: 5rem;
 }
 
-/*<!-- background img -->  */
+/*-- BOX-3 background img --  */
 .box3-bgimg {
     position: absolute;
     overflow: hidden;
-
 }
 
 .box3-bgimg img {
-
     scroll-padding: 0px;
     scale: 1.3;
 }
 
+/* End BOX-3 */
+/* ================================ */
 
-/* <!--========== Box 4 in services Strat ========= --> */
+/*---- Strat Box-4 in services -- */
 
 .services-boxstyle {
     flex-direction: column;
@@ -451,15 +443,12 @@ h6 i {
 }
 
 /* 6 card Box */
-
-
 .sexcard.flex-j-a {
     width: 85%;
     margin: 0 auto;
     flex-wrap: wrap;
     gap: 20px;
 }
-
 
 .sexcard-1 {
     background-color: #2124B1;
@@ -499,6 +488,10 @@ h6 i {
     padding: 8px 0;
 }
 
+/* End 6 cards */
+
+
+/* <!-- RM = Read More  --> */
 #rm {
     color: #2124B1;
     font-weight: 500;
@@ -510,8 +503,12 @@ h6 i {
 }
 
 /* 6 card Box End */
+/*  <!-- End Box 4 in services Strat --> */
 
-/* team */
+/* ================================================ */
+
+
+/* Start BOX-5 team */
 
 .box5-pro {
     background-color: #2124B1;
@@ -521,42 +518,50 @@ h6 i {
     background-image: url(./imgs/bg-newsletter.png);
     background-repeat: no-repeat;
     background-size: cover;
-  }
-.name1{
-    
-        flex-direction: column;
-        width: 350px;
-        height: 240px;
-        border: 1px solid #fff;
-        border-radius: 10px;
-        padding: 24px;
-        color: #fff;
-      
 }
-.name1 p{
+
+.name1 {
+
+    flex-direction: column;
+    width: 350px;
+    height: 240px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 24px;
+    color: #fff;
+
+}
+
+.name1 p {
     font-size: 20px;
 }
-.idbox{
+
+.idbox {
     margin: 20px 0;
 }
-.idbox img{
+
+.idbox img {
     border-radius: 50%;
     margin-right: 30px;
 }
 
+/* <!-- End Box 5 in  -->
+<!-- ===================================================
+=========================================================== --> */
 
 
-/* fotter  */
+/* Start fotter  */
+
 .right-f,
-.laft-f{
+.laft-f {
     width: 40%;
 }
+
 .infor {
     margin-right: 25px;
-  }
+}
 
 .fotter {
-    
     padding: 40px;
     background-color: #2124B1;
     color: #fff;
@@ -566,61 +571,57 @@ h6 i {
     background-repeat: no-repeat;
     /* background-size: cover; */
     background-position: center;
-    
-  }
+}
 
-  .fotter h5 {
+.fotter h5 {
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 1rem;
-  }
+}
 
-  .fotter p {
+.fotter p {
     font-size: 19px;
     margin-bottom: 15px;
-  }
-  .fotter p i{
+}
+
+.fotter p i {
     margin-right: 10px;
-  }
+}
+
 /* fotter right */
-.project-img img{
+.project-img img {
     width: 70px;
 }
 
-.right-f{
+.right-f {
     margin-left: 10px;
 }
-.news{
+
+.news {
     margin-left: 38px;
-    
+
 }
+
 .news p {
     font-size: 17px;
     margin-bottom: 15px;
 
-  }
-  /* button */
-  /* .box3-input input{
-    width: 60%;
-  } */
-  .fotter-bu{
+}
+
+.fotter-bu {
     width: 20rem;
     background-color: #fff;
-    /* width: 35rem; */
+
     height: 4rem;
     border-radius: 2rem;
     margin-top: 30px;
-  
-  }
-  /* .fotter-bu input{
-    width: 15rem;
-  } */
-  #fu-bu{
+
+}
+
+#fu-bu {
     width: 11rem;
-height: 3rem;
-font-size: 20px;
-border: transparent;
-outline: none;
-
-
-  }
+    height: 3rem;
+    font-size: 20px;
+    border: transparent;
+    outline: none;
+}
